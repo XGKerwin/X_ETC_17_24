@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#CBCBCB"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:text="车辆编号"
+            android:textSize="25dp"
+            android:gravity="center"
+            />
+
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:text="账户余额"
+            android:layout_marginLeft="200dp"
+            android:textSize="25dp"
+            android:gravity="center"
+            />
+
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:text="选项"
+            android:layout_marginLeft="350dp"
+            android:textSize="25dp"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:text="操作"
+            android:layout_marginLeft="100dp"
+            android:textSize="25dp"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listview"
+        />
+
+
+</LinearLayout>

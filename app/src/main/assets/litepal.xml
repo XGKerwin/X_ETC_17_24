@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<litepal>
+
+    <dbname value = "X_ETC_17_24"></dbname>
+    <version value = "1" ></version>
+
+    <list>
+        <mapping  class="com.example.x_etc_17_24.bean.SHZS"></mapping>
+        <mapping  class="com.example.x_etc_17_24.bean.WDXX"></mapping>
+        <mapping  class="com.example.x_etc_17_24.bean.CXJL"></mapping>
+    </list>
+
+</litepal>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        >
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/fragment18"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="消息查询"
+            android:layout_weight="1"
+            android:id="@+id/txt_chaxun"
+            android:background="@drawable/bg_xian1"
+            android:gravity="center"
+            android:textSize="30dp"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="消息分析"
+            android:layout_weight="1"
+            android:id="@+id/txt_fenxi"
+            android:background="@drawable/bg_hui"
+            android:gravity="center"
+            android:textSize="30dp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
